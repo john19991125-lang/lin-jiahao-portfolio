@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#eae8e2" />
+    <meta name="description" content="林嘉豪的個人攝影與影像作品網站：人物、時尚、靜物攝影、AI 與實拍創作，以及工作經歷。" />
+    <title>林嘉豪｜攝影與影像作品集</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+    <div class="scroll-progress" aria-hidden="true"><span id="scroll-progress-bar"></span></div>
+    <header class="site-header" id="top">
+      <a class="brand" href="#top" aria-label="回到首頁"><span class="brand-dot"></span><span id="brand-name">林嘉豪</span></a>
+      <nav class="nav" aria-label="主要導覽">
+        <a href="#experience">經歷</a>
+        <a href="#portfolio-categories">作品分類</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="about" aria-labelledby="hero-title">
+        <div class="hero-kicker reveal"><span class="hero-kicker-intro"><span class="status-pulse"></span> ABOUT THE CREATOR <span class="hero-kicker-line"></span> PHOTOGRAPHY / MOTION</span><div class="hero-contact-links" aria-label="聯絡資訊"><a id="hero-email" href="mailto:john26114034@gmail.com">EMAIL <span id="hero-email-value"></span></a><a id="hero-phone" href="tel:18851831592">TEL <span id="hero-phone-value"></span></a></div></div>
+        <div class="hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">你好，我是 <span class="eyebrow-line"></span> <span id="hero-role">攝影師・影像創作者</span></p>
+            <h1 id="hero-title"><span class="hero-line"><span>HELLO.</span></span><span class="hero-line"><span><em>I'M</em></span></span><span class="hero-line"><span><span id="hero-name">林嘉豪</span><span class="period">.</span></span></span></h1>
+            <p class="hero-intro" id="hero-intro"></p>
+            <div class="hero-facts"><p class="about-education" id="about-education"></p><ul class="about-specialties" id="about-specialties"></ul></div>
+            <nav class="hero-categories" id="portfolio-categories" aria-label="選擇作品類別">
+              <span class="hero-categories-label">選擇作品類別</span>
+              <div class="hero-category-grid">
+                <a href="#work" data-category="photo"><span>01</span><strong>攝影</strong><span aria-hidden="true">↗</span></a>
+                <a href="#ad-films"><span>02</span><strong>廣告</strong><span aria-hidden="true">↗</span></a>
+                <a href="#music-videos"><span>03</span><strong>MV</strong><span aria-hidden="true">↗</span></a>
+                <a href="#short-films"><span>04</span><strong>短片</strong><span aria-hidden="true">↗</span></a>
+              </div>
+            </nav>
+          </div>
+          <div class="hero-art reveal" aria-label="林嘉豪的個人形象照">
+            <div class="hero-art-frame">
+              <div class="hero-art-bg"></div>
+              <div class="orb orb-one"></div>
+              <div class="orb orb-two"></div>
+              <div class="orbit orbit-one"></div>
+              <div class="orbit orbit-two"></div>
+              <span class="hero-art-label">PORTRAIT / JIAHAO LIN</span>
+              <span class="hero-art-cross">✳</span>
+              <span class="frame-corner corner-tl"></span><span class="frame-corner corner-tr"></span><span class="frame-corner corner-bl"></span><span class="frame-corner corner-br"></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="experience-section" id="experience" aria-labelledby="experience-title">
+        <div class="section-top reveal"><span class="section-index">01 / EXPERIENCE</span><span>WHAT SHAPED THE WORK</span></div>
+        <div class="experience-head reveal"><h2 id="experience-title">EXPERIENCE<span class="period">.</span></h2><p>攝影、影像製作與現場協作的經歷。</p></div>
+        <div class="experience-list" id="experience-list"></div>
+      </section>
+
+      <section class="work-section" id="work" aria-labelledby="work-title">
+        <div class="section-top reveal"><span class="section-index">02 / PHOTOGRAPHY</span><span>人物 / 靜物</span></div>
+        <div class="work-heading reveal">
+          <h2 id="work-title">IMAGES<span class="period">.</span></h2>
+          <p>從光線出發，<br />讓畫面留下情緒。</p>
+        </div>
+        <div class="filters reveal" role="group" aria-label="篩選作品">
+          <button class="filter is-active" type="button" data-filter="all" aria-pressed="true">全部 <span id="count-all"></span></button>
+          <button class="filter" type="button" data-filter="portrait" aria-pressed="false">人物 <span id="count-portrait"></span></button>
+          <button class="filter" type="button" data-filter="still" aria-pressed="false">靜物 <span id="count-still"></span></button>
+        </div>
+        <div class="photo-grid" id="photo-grid"></div>
+      </section>
+
+      <section class="video-section" id="video" aria-labelledby="video-title">
+        <div class="section-top section-top-light reveal"><span class="section-index">03 / AI VIDEO</span><span>廣告短片 · MV · 短片</span></div>
+        <div class="video-head reveal"><h2 id="video-title">MOTION<span class="period">.</span></h2></div>
+        <div class="video-category-head reveal" id="ad-films"><span>01 / AD FILM</span><h3>廣告短片 <small id="ad-count"></small></h3></div>
+        <div class="ad-grid ad-grid-wide" id="ad-grid-wide"></div>
+        <div class="ad-grid ad-grid-tall" id="ad-grid-tall"></div>
+        <div class="video-category-mv"><div class="video-category-head reveal" id="music-videos"><span>02 / MUSIC VIDEO</span><h3>MV <small id="mv-count"></small></h3></div><div class="ad-grid mv-grid" id="mv-grid"></div></div>
+        <div class="video-category-short"><div class="video-category-head reveal" id="short-films"><span>03 / SHORT FILM</span><h3>短片 <small id="short-count"></small></h3></div><div class="ad-grid short-grid-wide" id="short-grid-wide"></div><div class="ad-grid short-grid-tall" id="short-grid-tall"></div></div>
+      </section>
+
+    </main>
+    <footer class="site-footer"><span>© 2026 <span id="footer-name">林嘉豪</span></span><span>PHOTOGRAPHY / IMAGE / MOTION</span></footer>
+
+    <dialog class="photo-dialog" id="photo-dialog" aria-labelledby="photo-dialog-title">
+      <button class="photo-close" type="button" id="photo-close" aria-label="關閉圖片作品">×</button>
+      <div class="photo-dialog-media"><img id="photo-dialog-image" alt="" /></div>
+      <div class="photo-dialog-footer"><div><span id="photo-dialog-kind"></span><h2 id="photo-dialog-title"></h2></div><div class="photo-dialog-controls"><span id="photo-position"></span><button type="button" id="photo-prev" aria-label="上一張圖片">←</button><button type="button" id="photo-next" aria-label="下一張圖片">→</button></div></div>
+    </dialog>
+
+    <dialog class="video-dialog" id="video-dialog" aria-labelledby="video-dialog-title">
+      <button class="video-close" type="button" id="video-close" aria-label="關閉影片">×</button>
+      <video id="video-player" controls playsinline preload="none"></video>
+      <div class="video-dialog-caption"><span id="video-dialog-kind">AD FILM</span><h2 id="video-dialog-title"></h2></div>
+    </dialog>
+
+    <button class="edit-toggle" type="button" id="edit-toggle" aria-controls="edit-toolbar" aria-expanded="false">✎ 編輯文字</button>
+    <div class="edit-toolbar" id="edit-toolbar" hidden role="toolbar" aria-label="文字編輯工具">
+      <span class="edit-toolbar-note">點選文字修改 · 草稿只存於此瀏覽器</span>
+      <button type="button" id="edit-save">本機儲存</button>
+      <button type="button" id="edit-export">下載修改檔</button>
+      <button type="button" id="edit-cancel">結束編輯</button>
+    </div>
+    <div class="edit-status" id="edit-status" role="status" aria-live="polite"></div>
+
+    <script src="./content.js"></script>
+    <script src="./script.js"></script>
+    <script src="./editor.js"></script>
+  </body>
+</html>
