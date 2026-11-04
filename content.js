@@ -244,7 +244,9 @@ window.PORTFOLIO_CONTENT = {
       { "title": "兩目黃", "src": "./liangmuhuang.mp4", "poster": "./liangmuhuang.jpg", "orientation": "landscape" },
       { "title": "暑假作業", "src": "./summer-homework.mp4", "poster": "./summer-homework.jpg", "orientation": "landscape" },
       { "title": "狼人 demo", "src": "./werewolf-demo.mp4?v=20261009", "poster": "./werewolf-demo.jpg?v=20261009", "orientation": "portrait" },
-      { "title": "霧恩 demo", "src": "./wuen-demo.mp4", "poster": "./wuen-demo.jpg", "orientation": "portrait" }
+      { "title": "霧恩 demo", "src": "./wuen-demo.mp4", "poster": "./wuen-demo.jpg", "orientation": "portrait" },
+      { "title": "怡安", "src": "./yi-an.mp4", "poster": "./yi-an.jpg", "orientation": "landscape" },
+      { "title": "浮光", "src": "./fu-guang.mp4", "poster": "./fu-guang.jpg", "orientation": "landscape" }
     ]
   }
 };
