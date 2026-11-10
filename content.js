@@ -229,6 +229,7 @@ window.PORTFOLIO_CONTENT = {
       { "title": "安慕希", "src": "./anmuxi.mp4", "poster": "./anmuxi.jpg", "orientation": "landscape" },
       { "title": "哈啤", "src": "./harbin-beer.mp4", "poster": "./harbin-beer.jpg", "orientation": "landscape" },
       { "title": "健力寶", "src": "./jianlibao.mp4", "poster": "./jianlibao.jpg", "orientation": "landscape" },
+      { "title": "莉蒂雅咖啡", "src": "./lidiya-coffee.mp4", "poster": "./lidiya-coffee.jpg", "orientation": "landscape" },
       { "title": "金", "src": "./metal.mp4", "poster": "./metal.jpg", "orientation": "portrait" },
       { "title": "木", "src": "./wood.mp4", "poster": "./wood.jpg", "orientation": "portrait" },
       { "title": "水", "src": "./water.mp4", "poster": "./water.jpg", "orientation": "portrait" },
