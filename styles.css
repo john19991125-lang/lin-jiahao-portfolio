@@ -196,6 +196,7 @@ body.text-editing .editable-word:hover,body.text-editing .editable-word:focus{ou
 /* Choose a work category directly from the introduction. */
 .hero-copy{display:flex;flex-direction:column}
 .hero-categories{order:1}
+.hero-actions{margin-top:20px}
 .hero-facts{order:2}
 .hero-categories{max-width:570px;margin:25px 0 0;scroll-margin-top:24px}
 .hero-categories-label{display:block;margin-bottom:10px;color:#657086;font:700 10px var(--display);letter-spacing:.12em}
